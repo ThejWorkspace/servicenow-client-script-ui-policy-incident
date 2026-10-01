@@ -1,0 +1,18 @@
+UI Policy Name:
+Critical Incident – Require Business Impact
+
+Table:
+Incident [incident]
+
+Condition:
+Impact = High OR Priority = Critical
+
+UI Policy Action:
+Field: Business Impact
+
+Visible: True
+Mandatory: True
+
+Purpose:
+When an Incident is classified as high impact or critical,
+the Business Impact field becomes visible and mandatory.
